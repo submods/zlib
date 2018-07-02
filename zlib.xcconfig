@@ -1,0 +1,7 @@
+// =============================================================================
+//  Xcode Build Settings
+// -----------------------------------------------------------------------------
+// [Apple LLVM - Preprocessing]
+
+// "Preprocessor Macros"
+GCC_PREPROCESSOR_DEFINITIONS = _LARGEFILE64_SOURCE=1 $(inherited)
