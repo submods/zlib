@@ -1,6 +1,12 @@
 // =============================================================================
 //  Xcode Build Settings
 // -----------------------------------------------------------------------------
+// [Apple Clang - Custom Compiler Flags]
+
+// "Other Warning Flags"
+WARNING_CFLAGS = $(inherited) -Wno-comma -Wno-shorten-64-to-32
+
+// -----------------------------------------------------------------------------
 // [Apple LLVM - Preprocessing]
 
 // "Preprocessor Macros"
