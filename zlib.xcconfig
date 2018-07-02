@@ -1,6 +1,14 @@
 // =============================================================================
 //  Xcode Build Settings
 // -----------------------------------------------------------------------------
+// [Apple Clang - Code Generation]
+
+// "Optimization Level"
+GCC_OPTIMIZATION_LEVEL_Debug = 0
+GCC_OPTIMIZATION_LEVEL_Release = 2
+GCC_OPTIMIZATION_LEVEL = $(GCC_OPTIMIZATION_LEVEL_$(CONFIGURATION))
+
+// -----------------------------------------------------------------------------
 // [Apple Clang - Custom Compiler Flags]
 
 // "Other Warning Flags"
@@ -11,3 +19,4 @@ WARNING_CFLAGS = $(inherited) -Wno-comma -Wno-shorten-64-to-32
 
 // "Preprocessor Macros"
 GCC_PREPROCESSOR_DEFINITIONS = _LARGEFILE64_SOURCE=1 $(inherited)
+
